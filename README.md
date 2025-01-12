@@ -4,8 +4,8 @@ A practice project to simulate Twitter backend with limited features
 Design a low-level system architecture for a simplified version of Twitter. Your design should focus on the following core functionalities:
 
     User Management:
-        Users should be able to sign up, log in, and log out.
-        Store user profiles, which include basic information such as username, password, email, and profile picture.
+        #2 Users should be able to sign up, log in, and log out.
+        #1 Store user profiles, which include basic information such as username, password, email.
 
     Tweet Management:
         Users should be able to post tweets (text content up to 280 characters).
@@ -16,8 +16,8 @@ Design a low-level system architecture for a simplified version of Twitter. Your
         Users should be able to follow and unfollow other users.
 
     Like and Retweet:
-        Users should be able to like tweets.
-        Users should be able to retweet other users' tweets, which will also appear on their followers' timelines.
+        #1 Users should be able to like tweets.
+        #2 Users should be able to retweet other users' tweets, which will also appear on their followers' timelines.
 
 Constraints:
 
@@ -25,7 +25,13 @@ Constraints:
     
 
 Deliverables:
+    
+    A Working application
 
-    An ER diagram or any other diagram that helps explain the data model.
-    A description of the APIs and their endpoints.
-    An explanation of the entity schema.
+
+Areas of Improvement:
+    
+    Input can be an interface so that multiple input sources can be used.
+    Error handling can be improved. Add Custom exceptions with proper error messages.
+    Add JavaDocs for better understanding of the code.
+    Retweet functiionality is not implemented.

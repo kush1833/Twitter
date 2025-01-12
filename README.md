@@ -26,7 +26,7 @@ Constraints:
 
 Deliverables:
     
-    A Working application
+    A Working application satisfying above requirements
 
 
 Areas of Improvement:
